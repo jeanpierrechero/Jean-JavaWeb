@@ -40,7 +40,7 @@ public class HelloWorld extends HttpServlet {
             out.println("<body>");
             out.println("<h1>Alumno: " + request.getParameter("nombre") + "</h1>");
             out.println("<h1>Curso: "+ request.getParameter("modalidad") + "</h1>");
-            out.println("<h1>Modalidad: "+ request.getParameter("modalidad2") + "</h1>");
+            out.println("<h1>Modalidad: "+ request.getParameter("modalidad") + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
